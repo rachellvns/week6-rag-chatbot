@@ -14,23 +14,23 @@ def chunk(text: str, max_tokens: int = 350, overlap: int=50) -> list[str]:
         chunks.append(buf.strip())
     return chunks
 
-from pathlib import Path
+# from pathlib import Path
 
-corpus = Path("corpus")
+# corpus = Path("corpus")
 
-documents = list(corpus.glob("*.md"))
+# documents = list(corpus.glob("*.md"))
 
-longest = max(
-    documents,
-    key=lambda p: len(p.read_text(encoding="utf-8"))
-)
+# longest = max(
+#     documents,
+#     key=lambda p: len(p.read_text(encoding="utf-8"))
+# )
 
-text = longest.read_text(encoding="utf-8")
-chunks = chunk(text)
+# text = longest.read_text(encoding="utf-8")
+# chunks = chunk(text)
 
-print(f"Longest document: {longest.name}")
-print(f"Chunk count: {len(chunks)}")
-print()
+# print(f"Longest document: {longest.name}")
+# print(f"Chunk count: {len(chunks)}")
+# print()
 
 # for i, c in enumerate(chunks, 1):
 #     tokens = tok_len(c)

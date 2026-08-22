@@ -11,10 +11,17 @@ SYSTEM = ("Answer ONLY from the numbered sources provided."
           "'I dont have that in the knowledge base.'"
           "Never use outside knowledge.")
 
-def answer(q: str) -> tuple[str, list]:
+def answer(q: str, doc_type: str | None = None) -> tuple[str, list]:
+    query_filter = None
+    if doc_type:
+        query_filter = models.Filter(
+            must=[models.FieldCondition(key="doc_type", match=models.MatchValue(value=doc_type))]
+        )
+        
     hits = client.query_points(
         collection_name=COLLECTION_NAME,
         query=models.Document(text=q, model=EMBEDDING_MODEL),
+        query_filter=query_filter,
         limit=5,
     ).points
     
@@ -33,13 +40,9 @@ def answer(q: str) -> tuple[str, list]:
     return reply, hits
 
 if __name__ == "__main__":
-    question = "What blood pressure reading defines Stage 2 hypertension?"
 
-    reply, hits = answer(question)
-    print(f"Q: {question}\n")
+    reply, hits = answer(q= "What increases a person's risk of developing this condition?",
+        doc_type="condition_overview")
     print(reply)
-    print("---")
     for i, h in enumerate(hits):
-        print(f"[{i+1}] {h.payload['source']} #{h.payload['chunk']}")
-        print(h.payload['text'][:200], "...")
-        print()
+        print(f"[{i+1}] {h.payload['source']} #{h.payload['doc_type']}")
