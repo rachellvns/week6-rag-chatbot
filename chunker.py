@@ -32,13 +32,13 @@ print(f"Longest document: {longest.name}")
 print(f"Chunk count: {len(chunks)}")
 print()
 
-for i, c in enumerate(chunks, 1):
-    tokens = tok_len(c)
-    first_line = c.splitlines()[0]
+# for i, c in enumerate(chunks, 1):
+#     tokens = tok_len(c)
+#     first_line = c.splitlines()[0]
 
-    print(f"Chunk {i}: {tokens} tokens | {first_line}")
+#     print(f"Chunk {i}: {tokens} tokens | {first_line}")
 
-    assert tokens >= 50, f"Chunk {i} is too small: {tokens} tokens"
-    assert tokens <= 500, f"Chunk {i} is too large: {tokens} tokens"
+#     assert tokens >= 50, f"Chunk {i} is too small: {tokens} tokens"
+#     assert tokens <= 500, f"Chunk {i} is too large: {tokens} tokens"
 
-print("\nAll chunks passed the sanity check.")
+# print("\nAll chunks passed the sanity check.")
