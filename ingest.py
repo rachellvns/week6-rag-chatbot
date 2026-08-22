@@ -24,7 +24,7 @@ for p in sorted(Path("corpus").glob("*.*")):
     text = p.read_text(errors="ignore")
     for i, ch in enumerate(chunk(text)):
         docs.append(ch)
-        meta.append({"source": p.name, "chunk": i})
+        meta.append({"source": p.name, "chunk": i, "text": ch})
         ids.append(stable_id(p.name,i))
 
 points = [
