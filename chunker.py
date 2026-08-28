@@ -20,7 +20,7 @@ def chunk(text: str, max_tokens: int = 350, overlap: int=50) -> list[str]:
 
 if __name__ == "__main__":
     # change this line to inspect different file
-    target = corpus / "hypertension-guideline.md"
+    target = corpus / "knee-replacement-patient-education.md"
 
     text = target.read_text(encoding="utf-8")
     chunks = chunk(text)
