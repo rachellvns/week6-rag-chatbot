@@ -12,6 +12,5 @@ JUDGE = ("You are a strict grader. Given SOURCES and an"
 
 def judge(answer: str, ctx: str) -> Verdict:
     raw = call_llm(system="".join(JUDGE), temperature=0,
-                   user=f"SOURCES:\n{ctx}\n\nANSWER:\n{answer}",
-                   max_tokens=2000)
+                   user=f"SOURCES:\n{ctx}\n\nANSWER:\n{answer}")
     return Verdict.model_validate_json(raw)

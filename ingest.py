@@ -2,20 +2,7 @@ import hashlib
 from pathlib import Path
 from qdrant_client import QdrantClient, models
 from chunker import chunk
-from config import EMBEDDING_MODEL, QDRANT_PATH, COLLECTION_NAME
-
-DOC_TYPE_BY_FILE = {
-    "type2-diabetes-overview.md": "condition_overview",
-    "asthma-overview.md": "condition_overview",
-    "ckd-overview.md": "condition_overview",
-    "hypertension-guideline.md": "treatment_guideline",
-    "migraine-guideline.md": "treatment_guideline",
-    "depression-anxiety-screening-guideline.md": "treatment_guideline",
-    "knee-replacement-patient-education.md": "patient_education",
-    "cardiovascular-nutrition.md": "patient_education",
-    "adult-vaccination-patient-education.md": "patient_education",
-    "antibiotic-resistance-summary.md": "clinical_summary",
-}
+from config import EMBEDDING_MODEL, QDRANT_PATH, COLLECTION_NAME, DOC_TYPE_BY_FILE
 
 def stable_id(path: str, i: int) -> int:
     h = hashlib.md5(f"{path}:{i}".encode()).hexdigest()

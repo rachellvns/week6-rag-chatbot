@@ -9,6 +9,12 @@ import argparse
 from rag import client, COLLECTION_NAME, EMBEDDING_MODEL, answer, retrieve
 from metrics import hit_at_k, mean_reciprocal_rank
 from judge import judge
+from store import retrieve_hybrid
+
+RETRIEVERS = {
+    "baseline": retrieve,
+    "hybrid": retrieve_hybrid,
+}
 
 REFUSAL = "I don't have that in the knowledge base."
 
@@ -48,12 +54,14 @@ if __name__ == "__main__":
     parser.add_argument("--config", default="baseline")
     args = parser.parse_args()
     config = args.config
+    
+    retriever = RETRIEVERS[config]
 
     rows = []
     for case in load_jsonl("eval/golden.jsonl"):
-        hits = retrieve(case["q"])
+        hits = retriever(case["q"])
         got = [f"{h.payload['source']}:{h.payload['chunk']}" for h in hits]
-        ans, _ = answer(case["q"])
+        ans, _ = answer(case["q"], retriever=retriever)
         is_refusal_case = case["reference"] == "REFUSE"
         rows.append({
             "q": case["q"],
@@ -63,6 +71,6 @@ if __name__ == "__main__":
             "refusal_ok": (REFUSAL in ans) == is_refusal_case,
             "is_refusal_case": is_refusal_case,
         })
-
+    
     print_scorecard(rows)
     save_json(f"eval/results-{config}.json", rows)

@@ -26,20 +26,24 @@ def retrieve(q: str, doc_type: str | None = None):
     ).points
 
 
-def call_llm(system: str, user: str, temperature: float = 0.0, max_tokens: int = 700) -> str:
-    response = llm.messages.create(
+def call_llm(system: str, user: str, temperature: float = 0.0, max_tokens: int = 2000, thinking: bool = False) -> str:
+    kwargs = dict(
         model=MODEL,
         max_tokens=max_tokens,
         system=system,
         messages=[{"role": "user", "content": user}],
     )
+    if not thinking:
+        kwargs["thinking"] = {"type": "disabled"}
+    response = llm.messages.create(**kwargs)
     for block in response.content:
         if block.type == "text":
             return block.text
     raise RuntimeError(f"No text block in response. Content types: {[b.type for b in response.content]}")
 
-def answer(q: str, doc_type: str | None = None) -> tuple[str, list]:
-    hits = retrieve(q, doc_type=doc_type)
+def answer(q: str, doc_type: str | None = None, retriever=None) -> tuple[str, list]:
+    retriever = retriever or retrieve
+    hits = retriever(q, doc_type=doc_type)
 
     context = "\n\n".join(
         f"[{i+1}] ({h.payload['source']} #{h.payload['chunk']})"
