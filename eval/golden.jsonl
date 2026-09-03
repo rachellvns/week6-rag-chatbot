@@ -1,0 +1,33 @@
+{"q": "At what age should adults without additional risk factors begin diabetes screening?", "relevant": ["type2-diabetes-overview.md:4"], "reference": "Age 35, with earlier screening for those with additional risk factors."}
+{"q": "What HbA1c range defines prediabetes?", "relevant": ["type2-diabetes-overview.md:4"], "reference": "5.7 to 6.4 percent."}
+{"q": "What are the two core pathophysiological defects in type 2 diabetes?", "relevant": ["type2-diabetes-overview.md:1"], "reference": "Peripheral insulin resistance and progressive beta-cell secretory failure."}
+{"q": "What blood pressure reading defines Stage 2 hypertension?", "relevant": ["hypertension-guideline.md:0"], "reference": "140 or higher systolic, or 90 or higher diastolic."}
+{"q": "Which blood pressure medications are contraindicated in pregnancy?", "relevant": ["hypertension-guideline.md:4"], "reference": "ACE inhibitors and ARBs, due to teratogenic risk."}
+{"q": "What is the general target blood pressure for most adults?", "relevant": ["hypertension-guideline.md:4"], "reference": "Below 130/80 mmHg."}
+{"q": "What spirometry result confirms asthma after bronchodilator use?", "relevant": ["asthma-overview.md:2"], "reference": "FEV1 increase of at least 12 percent and 200 mL after bronchodilator administration."}
+{"q": "What asthma phenotype is associated with elevated eosinophil counts?", "relevant": ["asthma-overview.md:1"], "reference": "Eosinophilic asthma."}
+{"q": "What medication class can trigger asthma symptoms in susceptible individuals?", "relevant": ["asthma-overview.md:3"], "reference": "NSAIDs and beta-blockers, among other triggers."}
+{"q": "Around how many weeks after knee replacement can most patients resume driving?", "relevant": ["knee-replacement-patient-education.md:3"], "reference": "Around four to six weeks, once off strong opioid pain medication with adequate reflexes and strength."}
+{"q": "What symptom after knee replacement could indicate a blood clot?", "relevant": ["knee-replacement-patient-education.md:3"], "reference": "Sudden significant calf swelling accompanied by pain or warmth."}
+{"q": "How long can full recovery from knee replacement take?", "relevant": ["knee-replacement-patient-education.md:3"], "reference": "Up to a year for maximal improvement in strength and range of motion."}
+{"q": "What organism is considered a last-resort-antibiotic-resistant threat among gram-negative bacteria?", "relevant": ["antibiotic-resistance-summary.md:3"], "reference": "Carbapenem-resistant Enterobacteriaceae (CRE)."}
+{"q": "What is delayed prescribing and why is it used?", "relevant": ["antibiotic-resistance-summary.md:4"], "reference": "Providing a prescription the patient only fills if symptoms worsen or fail to improve, reducing unnecessary antibiotic use without harming outcomes in appropriate cases."}
+{"q": "What clinical prediction rule helps guide antibiotic decisions for sore throat?", "relevant": ["antibiotic-resistance-summary.md:5"], "reference": "The Centor criteria for streptococcal pharyngitis."}
+{"q": "How many headache days per month generally warrants preventive migraine treatment?", "relevant": ["migraine-guideline.md:3"], "reference": "Four or more headache days per month."}
+{"q": "What class of drugs is typically used to abort a moderate to severe migraine attack?", "relevant": ["migraine-guideline.md:2"], "reference": "Triptans."}
+{"q": "What red-flag headache feature should prompt neuroimaging?", "relevant": ["migraine-guideline.md:1"], "reference": "A sudden thunderclap onset, among other red flags like new headache after age 50 or progressive worsening."}
+{"q": "What GFR value defines CKD stage G5?", "relevant": ["ckd-overview.md:1"], "reference": "Below 15 mL/min/1.73m², or the need for dialysis."}
+{"q": "What are the two leading causes of chronic kidney disease?", "relevant": ["ckd-overview.md:2"], "reference": "Diabetes mellitus and hypertension."}
+{"q": "What newer drug class has shown renal protective effects independent of glucose lowering?", "relevant": ["ckd-overview.md:5"], "reference": "SGLT2 inhibitors."}
+{"q": "How often is fatty fish recommended for cardiovascular health?", "relevant": ["cardiovascular-nutrition.md:2"], "reference": "At least twice weekly."}
+{"q": "What type of fat should be limited for heart health?", "relevant": ["cardiovascular-nutrition.md:0"], "reference": "Saturated fat and trans fat."}
+{"q": "Where does most dietary sodium actually come from?", "relevant": ["cardiovascular-nutrition.md:1"], "reference": "Processed and restaurant foods, not the salt shaker."}
+{"q": "What PHQ-9 score range is considered moderately severe depression?", "relevant": ["depression-anxiety-screening-guideline.md:1"], "reference": "15 to 19."}
+{"q": "What GAD-7 score threshold is generally used for further clinical evaluation?", "relevant": ["depression-anxiety-screening-guideline.md:2"], "reference": "A score of 10 or greater."}
+{"q": "What should a clinician do if PHQ-9 item nine is endorsed?", "relevant": ["depression-anxiety-screening-guideline.md:2"], "reference": "Directly follow up regardless of the total score."}
+{"q": "During which weeks of pregnancy is the Tdap vaccine recommended?", "relevant": ["adult-vaccination-patient-education.md:1"], "reference": "Between 27 and 36 weeks gestation."}
+{"q": "At what age is the recombinant zoster (shingles) vaccine generally recommended?", "relevant": ["adult-vaccination-patient-education.md:2"], "reference": "Age 50 and older, given as a two-dose series."}
+{"q": "What is the recommended starting dose of metformin, in mg, for newly diagnosed type 2 diabetes?", "relevant": [], "reference": "REFUSE"}
+{"q": "What percentage mortality rate is associated with CRE infections compared to susceptible infections?", "relevant": [], "reference": "REFUSE"}
+{"q": "What is the recommended follow-up interval, in weeks, for re-administering the PHQ-9 after starting an SSRI?", "relevant": [], "reference": "REFUSE"}
+{"q": "Do you offer home visits in Johor?", "relevant": [], "reference": "REFUSE"}

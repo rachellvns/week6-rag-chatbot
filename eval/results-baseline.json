@@ -1,0 +1,266 @@
+[
+  {
+    "q": "At what age should adults without additional risk factors begin diabetes screening?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What HbA1c range defines prediabetes?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What are the two core pathophysiological defects in type 2 diabetes?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What blood pressure reading defines Stage 2 hypertension?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "Which blood pressure medications are contraindicated in pregnancy?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What is the general target blood pressure for most adults?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What spirometry result confirms asthma after bronchodilator use?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What asthma phenotype is associated with elevated eosinophil counts?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What medication class can trigger asthma symptoms in susceptible individuals?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "Around how many weeks after knee replacement can most patients resume driving?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What symptom after knee replacement could indicate a blood clot?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "How long can full recovery from knee replacement take?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": false,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What organism is considered a last-resort-antibiotic-resistant threat among gram-negative bacteria?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What is delayed prescribing and why is it used?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": false,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What clinical prediction rule helps guide antibiotic decisions for sore throat?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "How many headache days per month generally warrants preventive migraine treatment?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What class of drugs is typically used to abort a moderate to severe migraine attack?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What red-flag headache feature should prompt neuroimaging?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What GFR value defines CKD stage G5?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What are the two leading causes of chronic kidney disease?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What newer drug class has shown renal protective effects independent of glucose lowering?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "How often is fatty fish recommended for cardiovascular health?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": false,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What type of fat should be limited for heart health?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "Where does most dietary sodium actually come from?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What PHQ-9 score range is considered moderately severe depression?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What GAD-7 score threshold is generally used for further clinical evaluation?",
+    "hit3": true,
+    "rr": 1.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What should a clinician do if PHQ-9 item nine is endorsed?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "During which weeks of pregnancy is the Tdap vaccine recommended?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "At what age is the recombinant zoster (shingles) vaccine generally recommended?",
+    "hit3": true,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": false
+  },
+  {
+    "q": "What is the recommended starting dose of metformin, in mg, for newly diagnosed type 2 diabetes?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": true
+  },
+  {
+    "q": "What percentage mortality rate is associated with CRE infections compared to susceptible infections?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": true
+  },
+  {
+    "q": "What is the recommended follow-up interval, in weeks, for re-administering the PHQ-9 after starting an SSRI?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": true
+  },
+  {
+    "q": "Do you offer home visits in Johor?",
+    "hit3": false,
+    "rr": 0.0,
+    "faithful": true,
+    "refusal_ok": true,
+    "is_refusal_case": true
+  }
+]
